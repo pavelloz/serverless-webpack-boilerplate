@@ -1,0 +1,24 @@
+service: serverless-webpack-boilerplate
+
+plugins:
+  - serverless-webpack
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+
+#  stage: dev
+#  region: us-east-1
+
+#  environment:
+#    variable1: value1
+
+#package:
+#  include:
+#    - include-me-dir/**
+#  exclude:
+#    - exclude-me-dir/**
+
+functions:
+  index:
+    handler: app/index.run

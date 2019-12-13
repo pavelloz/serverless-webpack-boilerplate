@@ -10,7 +10,7 @@
   "author": "Paweł Kowalski <pavelloz@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "aws-sdk": "^2.566.0",
+    "aws-sdk": "^2.589.0",
     "serverless-webpack": "^5.3.1",
     "webpack": "^4.41.2"
   }
